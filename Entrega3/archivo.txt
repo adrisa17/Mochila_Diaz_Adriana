@@ -1,0 +1,11 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?
+
+En parte se debe a las diferencias tanto en la arquitectura, como en el diseño. La idea
+es que los lenguajes de programación se adaptan más a esta parte y una forma de hacerlo es usando API's.
+
+¿Qué tipo de máquina virtual es virtual box?
+Es una forma de tener otro software dentro del mismo hardware, es decir que podríamos tener 
+2 sistemas operativos dentro de mi misma computadora. Y virtual Box también me permite verlo de manera visual. 
+
+Si tengo más de una máquina virtual instalada y una se rompe ¿esto afedcta a las demás? ¿Por qué?
+Realmente no las afecta. 
