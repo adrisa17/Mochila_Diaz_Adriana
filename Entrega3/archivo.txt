@@ -8,4 +8,4 @@ Es una forma de tener otro software dentro del mismo hardware, es decir que podr
 2 sistemas operativos dentro de mi misma computadora. Y virtual Box también me permite verlo de manera visual. 
 
 Si tengo más de una máquina virtual instalada y una se rompe ¿esto afedcta a las demás? ¿Por qué?
-Realmente no las afecta. 
+Realmente no las afecta porque cada máquina virtual estaría aislada. 
