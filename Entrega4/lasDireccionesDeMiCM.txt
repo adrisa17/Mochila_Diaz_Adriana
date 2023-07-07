@@ -1,0 +1,9 @@
+
+1. Ip privada: 172.20.67.132
+2. Ip pública: 200.110.169.170
+3.Dirección MAC: 00:15:5d:fb:ec:06
+4.¿Es diferene la IP pública y privada de nuestra máquina host?
+Sí, suelen ser diferentes porque la IP privada es la dirección qeu tiene mi máquina
+dentro de una red local, usualmente se usa para que se comuique de manera local. 
+Y por otro lado, la IP pública es la dirección de mi internet, esta es única y depende 
+unicamente de mi red de internet. 
