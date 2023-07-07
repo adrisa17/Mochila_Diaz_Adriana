@@ -1,0 +1,50 @@
+Sobre Telnet y SSH
+
+Pasos para la entrega: 
+1. Ya una vez instalada la máquina virtual se configura la red
+2. Se verifica la IP con ifconfig
+3. Se instala telnet con sudo apt-get install telnetd y luego se configura
+4. Se verifica que funcione con systemctl status inetd
+5. Desde mi máquina virtual y mi host como admin, me conecto a la telnet y mi IP
+6. Se clona la mochila y con las credenciales se hace la rama 5 y se prepara la entrega 5
+
+Preguntas para la entrega
+
+Telnet, SSH y las diferencias entre ellos:
+
+Telnet:
+a) Pregunta: ¿Cuáles son las ventajas y desventajas de utilizar el protocolo Telnet?
+*Ventajas*
+- Se puede configurar de manera remota
+- es sencillo 
+- no requiere de licencias o permisos especiales
+*Desventajas*
+- AL no estar encriptada la información, puede ser más susceptible a vulnerabilidades
+-Por ello tampoco se recomiendo su uso para redes públicas
+- Es más lento
+b) Instrucciones: Responde la pregunta en base a tu conocimiento y experiencia. Menciona al menos dos ventajas y dos desventajas de utilizar Telnet como protocolo de acceso remoto.
+*ventajas*
+- Se puede usar en cualquier sistema operativo 
+-Es bastante simple de instalar y usar
+*desvenajas*
+-Es muy vulnerable 
+-Puede ser poco seguro, me da miedo conectarme con otra dirección que sea diferente al de mi casa
+
+
+SSH:
+a) Pregunta: ¿Cuáles son las ventajas y desventajas de utilizar el protocolo SSH?
+*ventajas*
+-Su seguridad es mucho más confiable porque está cifrado, es decir que la info está encriptada
+- Cuenta con una autenticación
+*Desventajas*
+- La configuración puede ser un poco más compleja, hay que seguir cierto tipo de protocolo para poder usarlo
+- Se debe instalar primero el SSH, lo que es un paso adicional, pues la intalación en la MV a veces es un poco más compleja
+b) Instrucciones: Responde la pregunta en base a tu conocimiento y experiencia. Menciona al menos dos ventajas y dos desventajas de utilizar SSH como protocolo de acceso remoto.
+*ventajas*
+-Es más confiable de usar, por su seguridad
+*desventajas*
+-por su misma seguridad, es más dificil de configurar. Me parece que es un poco más tedioso de usar
+Diferencias entre SSH y Telnet:
+a) Pregunta: ¿Cuáles son las principales diferencias entre SSH y Telnet?
+b) Instrucciones: Responde la pregunta destacando al menos tres diferencias clave entre SSH y Telnet en términos de seguridad, cifrado de datos y características funcionales.
+- SSH es mucho más seguro por su autenticación y protocolo además que maneja una conexión segura y cifrada mientras que telnet no
